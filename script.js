@@ -1,10 +1,10 @@
 //TODO: Include your multi-line comment header
 /*
-    Name: 
-    Date: 
-    Assignment: 
-    Quarter: 
-    Instructor: 
+    Name: Tania Kuisma
+    Date: 9/14/2026
+    Assignment: Module 1
+    Quarter: Fall 2026
+    Instructor: Kuisma
 */
 
 // TODO: Import "use strict" directive
@@ -18,14 +18,18 @@ const display = (label, value) =>
 // ADD YOUR CODE BELOW
 
 // TODO: Create variables for your name (string), total number of modules for our class (number), and if you're enrolled (boolean)
-name;
-totalModules;
-isEnrolled;
+const name = 'Tania';
+const totalModules = 10;
+const isEnrolled = true;
 
 // TODO: Use a template literal to output a welcome message. Use at least one ${}.
+console.log('Welcome! My name is ${name}');
 
 // TODO: Calculate the total study hours for the course. There are 10 modules. Each module takes roughly 6 hours.
 // Formula: totalStudyHours = totalModules * hoursPerWeek
+const totalModules = 10;
+const hoursPerWeek = 6;
+const totalStudyHours = totalModules * hoursPerWeek;
 
 // TODO: Calculate the number of study hours each day. Convert the output to minutes (this formula is not provided).
 // Formula: dailyStudyHours = hoursPerWeek / 7
