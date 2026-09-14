@@ -27,12 +27,13 @@ console.log('Welcome! My name is ${name}');
 
 // TODO: Calculate the total study hours for the course. There are 10 modules. Each module takes roughly 6 hours.
 // Formula: totalStudyHours = totalModules * hoursPerWeek
-const totalModules = 10;
 const hoursPerWeek = 6;
 const totalStudyHours = totalModules * hoursPerWeek;
 
 // TODO: Calculate the number of study hours each day. Convert the output to minutes (this formula is not provided).
 // Formula: dailyStudyHours = hoursPerWeek / 7
+const dailyStudyHours = hoursPerWeek / 7;
+const dailyStudyMin = dailyStudyHours * 60;
 
 // TODO: Give yourself a rest day and exclude one day out of your week. Calculate the new number of hours and set it to adjustedDailyHours. Convert the output to minutes (this formula is not provided).
 
