@@ -44,8 +44,8 @@ const dailyStudyMin = dailyStudyHours * 60;
 
 // TODO: Display your results. Use the correct variables and avoid hard-coding the data below.
 // TODO: Adjust all decimals to two places.
-display("Welcome Message");
-display("My Name");
+display("Welcome Message", message);
+display("My Name", name);
 display("Enrolled");
 display("Total Modules");
 display("Daily Study Hours (7 days)");
