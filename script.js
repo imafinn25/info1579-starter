@@ -18,22 +18,22 @@ const display = (label, value) =>
 // ADD YOUR CODE BELOW
 
 // TODO: Create variables for your name (string), total number of modules for our class (number), and if you're enrolled (boolean)
-const name = 'Tania';
-const totalModules = 10;
-const isEnrolled = true;
+let name = 'Tania';
+let totalModules = 10;
+let isEnrolled = true;
 
 // TODO: Use a template literal to output a welcome message. Use at least one ${}.
-console.log('Welcome! My name is ${name}');
+let message = "Welcome, ${name}!";
 
 // TODO: Calculate the total study hours for the course. There are 10 modules. Each module takes roughly 6 hours.
 // Formula: totalStudyHours = totalModules * hoursPerWeek
-const hoursPerWeek = 6;
-const totalStudyHours = totalModules * hoursPerWeek;
+let hoursPerWeek = 6;
+let totalStudyHours = totalModules * hoursPerWeek;
 
 // TODO: Calculate the number of study hours each day. Convert the output to minutes (this formula is not provided).
 // Formula: dailyStudyHours = hoursPerWeek / 7
-const dailyStudyHours = hoursPerWeek / 7;
-const dailyStudyMin = dailyStudyHours * 60;
+let dailyStudyHours = hoursPerWeek / 7;
+let dailyStudyMin = dailyStudyHours * 60;
 
 // TODO: Give yourself a rest day and exclude one day out of your week. Calculate the new number of hours and set it to adjustedDailyHours. Convert the output to minutes (this formula is not provided).
 
