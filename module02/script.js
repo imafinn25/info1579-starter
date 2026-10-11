@@ -16,6 +16,14 @@ const display = (label, value) =>
 // END DO NOT MODIFY
 
 // ADD YOUR CODE BELOW
+
+
+// TODO: Create variables for your name (string), total number of modules for our class (number), and if you're enrolled (boolean)
+const myName = "Tania";
+const totalModules = 10;
+const isEnrolled = true;
+
+// Module 2 Part 1
 const courseModules = [
   "Module 1",
   "Module 2",
@@ -30,11 +38,6 @@ const courseModules = [
 ];
 
 //const completedModules = ["Module 1", "Module 2"];
-
-// TODO: Create variables for your name (string), total number of modules for our class (number), and if you're enrolled (boolean)
-const myName = "Tania";
-const totalModules = 10;
-const isEnrolled = true;
 
 // TODO: Use a template literal to output a welcome message. Use at least one ${}.
 let message = `Welcome, ${myName}!`
@@ -93,9 +96,9 @@ if (percentComplete >= 90) {
 }
 
 //Module 2 Part 3
-let studyPlan;
+let studyPlan = '';
 
-let studyDay;
+let studyDay = '';
 
 if (percentComplete == 100) {
   studyDay = "Complete";
@@ -105,23 +108,23 @@ if (percentComplete == 100) {
 
 switch (studyDay) {
   case "Monday":
-    studyPlan = `Read the module overview for ${dailyStudyMin.toFixed(2)} minutes.`;
-    break;
+    studyPlan = `Read the module overview for ${dailyStudyMinutes} minutes today.`
+      break;
 
   case "Tuesday":
-    studyPlan = `Review lesson materials for ${dailyStudyMin.toFixed(2)} minutes.`;
+    studyPlan = `Review lesson materials for ${dailyStudyMinutes} minutes today.`;
     break;
 
   case "Wednesday":
-    studyPlan = `Complete coding exercises for ${dailyStudyMin.toFixed(2)} minutes.`;
+    studyPlan = `Complete coding exercises for ${dailyStudyMinutes} minutes.`;
     break;
 
   case "Thursday":
-    studyPlan = `Work on the weekly assignment for ${dailyStudyMin.toFixed(2)} minutes.`;
+    studyPlan = `Work on the weekly assignment for ${dailyStudyMinutes} minutes.`;
     break;
 
   case "Friday":
-    studyPlan = `Review your progress for ${dailyStudyMin.toFixed(2)} minutes.`;
+    studyPlan = `Review your progress for ${dailyStudyMinutes} minutes.`;
     break;
 
   case "Saturday":
